@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import br.pucrs.util.ExecTimer;
 
 public class ExerRec {
-
 	private long contIter = 0;
 
 	public void resetCont(){
