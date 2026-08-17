@@ -1,10 +1,10 @@
-package recursao;
+package br.pucrs.exercrecbasic;
 
 import java.util.Random;
 import java.util.ArrayList;
 import br.pucrs.util.ExecTimer;
 
-public class ExerRec {
+public class DemoRecBasic {
 	private long contIter = 0;
 
 	public void resetCont(){
@@ -386,7 +386,7 @@ public class ExerRec {
 	}
 
 	public static void main(String [] argc) {
-		ExerRec ex = new ExerRec();
+		DemoRecBasic ex = new DemoRecBasic();
 		ArrayList<Long> arr = new ArrayList<Long>();
 
 		for (long i = 1; i <= 10; i++) 
@@ -519,7 +519,7 @@ public class ExerRec {
 			System.out.println("Nro de iteracoes: " + ex.getContIter());
 		}
 		catch (StackOverflowError exec) {
-			System.out.println("Somatório falhou: Estourou a pilha!");
+			System.out.println("Somatï¿½rio falhou: Estourou a pilha!");
 			System.out.println(exec.getMessage());
 		}
 
@@ -569,7 +569,7 @@ public class ExerRec {
 			System.out.println("Nro de iteracoes: " + ex.getContIter());
 		}
 		catch(StackOverflowError exec) {
-			System.out.println("Somatório ou V2 falhou: Estourou a pilha!");
+			System.out.println("Somatï¿½rio ou V2 falhou: Estourou a pilha!");
 			System.out.println(exec.getMessage());
 		}
 
